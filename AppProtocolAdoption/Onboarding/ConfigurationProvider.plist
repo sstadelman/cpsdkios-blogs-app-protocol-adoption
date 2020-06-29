@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>auth</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>oauth2.authorizationEndpoint</key>
+				<string>https://9287d73ctrial-dev-com-sstadelman-demo-espm.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/authorize</string>
+				<key>oauth2.clients</key>
+				<array>
+					<dict>
+						<key>clientID</key>
+						<string>94e4b984-4162-4980-bcb7-6daaaf971411</string>
+						<key>grantType</key>
+						<string>authorization_code</string>
+						<key>redirectURL</key>
+						<string>https://9287d73ctrial-dev-com-sstadelman-demo-espm.cfapps.eu10.hana.ondemand.com</string>
+					</dict>
+				</array>
+				<key>oauth2.tokenEndpoint</key>
+				<string>https://9287d73ctrial-dev-com-sstadelman-demo-espm.cfapps.eu10.hana.ondemand.com/oauth2/api/v1/token</string>
+			</dict>
+			<key>type</key>
+			<string>oauth2</string>
+		</dict>
+	</array>
+	<key>host</key>
+	<string>9287d73ctrial-dev-com-sstadelman-demo-espm.cfapps.eu10.hana.ondemand.com</string>
+	<key>protocol</key>
+	<string>https</string>
+</dict>
+</plist>
