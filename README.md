@@ -87,14 +87,14 @@ class ReferenceAppDelegate: NSObject, UIApplicationDelegate {
     }
     
     func applicationDidEnterBackground(_: UIApplication) {
-        OnboardingSessionManager.shared.lock { error in
+        onboardingSessionManager.lock { error in
             print("error: \(error)")
         }
     }
 
     func applicationWillEnterForeground(_: UIApplication) {
         // Triggers to show the passcode screen
-        OnboardingSessionManager.shared.unlock { error in
+        onboardingSessionManager.unlock { error in
             print("error: \(error)")
         }
     }
